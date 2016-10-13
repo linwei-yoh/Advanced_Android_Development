@@ -42,6 +42,8 @@
     <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
     <string name="pref_location_key" translatable="false">location</string>
 
+    <string name="pref_location_status_key" translatable="false">loc-status</string>
+
     <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
     <string name="pref_location_default" translatable="false">94043</string>
 
@@ -111,4 +113,8 @@
 
     <string name="empty_forecast_list">No Weather Information Available</string>
     <string name="empty_forecast_list_no_network">No Weather Information Available.The network is not available to fetch weather data.</string>
+
+
+    <string name="empty_forecast_list_server_down">无可用天气信息。服务器未返回数据。</string>
+    <string name="empty_forecast_list_server_error">无可用天气信息。服务器未返回有效数据。</string>
 </resources>
