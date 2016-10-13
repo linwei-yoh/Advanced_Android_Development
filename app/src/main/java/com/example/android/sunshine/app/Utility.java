@@ -263,7 +263,6 @@ public class Utility {
     }
 
     @SuppressWarnings("ResourceType")
-    public static
     @SunshineSyncAdapter.LocationStatus
     int getLocationStatus(Context c) {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(c);
